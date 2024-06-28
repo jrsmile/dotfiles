@@ -1,3 +1,5 @@
+--verbose
 --target ~/.config
 --ignore=.stowrc
 --ignore=install.sh
+--restow
