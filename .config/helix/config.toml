@@ -1,0 +1,25 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+true-color = true
+mouse = true
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.lsp]
+display-inlay-hints = false
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+C-g = [":new", ":insert-output lazygit", ":buffer-close!",":redraw"]
