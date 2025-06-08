@@ -1,3 +1,4 @@
 #!/bin/sh
 rm ~/LICENSE  2> /dev/null
 rm ~/README.md  2> /dev/null
+zellij
