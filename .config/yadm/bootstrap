@@ -2,3 +2,7 @@
 rm ~/LICENSE  2> /dev/null
 rm ~/README.md  2> /dev/null
 zellij -s default
+ret=$?
+if [ $ret -ne 0 ]; then
+        zellij attach default
+fi
